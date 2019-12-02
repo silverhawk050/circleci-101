@@ -10,8 +10,5 @@ jobs:
     steps:
       - checkout
       - run:
-          command: ping circleci.com
-          shell: cmd.exe
-      - run:
           command: echo 'This is powershell'
           shell: powershell.exe
