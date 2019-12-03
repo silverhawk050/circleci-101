@@ -9,7 +9,6 @@ jobs:
       name: win/default
     steps:
       - checkout
-      #- run: ls -lah
       - run:
           command: ping localhost
           shell: cmd.exe
